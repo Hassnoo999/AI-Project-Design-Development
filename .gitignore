@@ -1,0 +1,24 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Large datasets and model weights
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.zip
+
+# Local QA and temporary files
+.codex-work/
+~$*.docx

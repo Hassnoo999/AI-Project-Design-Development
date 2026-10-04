@@ -1,6 +1,7 @@
 # Local Python environments and caches
 .venv/
 venv/
+aipdd_env/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -15,6 +16,7 @@ __pycache__/
 *.pt
 *.pth
 *.onnx
+*.h5
 *.mp4
 *.avi
 *.zip

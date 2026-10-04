@@ -1,0 +1,20 @@
+PS> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS> git log --oneline --graph --decorate --all
+* 0884a55 (HEAD -> main, origin/main, origin/HEAD) Complete Lab 01 notebook and Lab 02 system design deliverables
+*   1296b64 Merge Lab 01 environment setup
+|\  
+| * 3166f9b (origin/feature/lab01-setup, feature/lab01-setup) Pin aipdd_env dependencies for Lab 01
+|/  
+* 2bc489f Add standard AI project structure and environment setup scripts
+* 7983e9f Organize repository for Labs 01 to 03
+* cae2e83 Initial commit
+PS> git branch -av
+  feature/lab01-setup                3166f9b Pin aipdd_env dependencies for Lab 01
+* main                               0884a55 Complete Lab 01 notebook and Lab 02 system design deliverables
+  remotes/origin/HEAD                -> origin/main
+  remotes/origin/feature/lab01-setup 3166f9b Pin aipdd_env dependencies for Lab 01
+  remotes/origin/main                0884a55 Complete Lab 01 notebook and Lab 02 system design deliverables

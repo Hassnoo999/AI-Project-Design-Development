@@ -1,0 +1,5 @@
+flowchart LR
+    C[Camera] -->|Video frames| S((0 Surveillance System))
+    A[Admin] -->|Settings| S
+    S -->|Alerts and results| T[Teacher / Operator]
+    T -->|Review decisions| S

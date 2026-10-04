@@ -1,0 +1,4 @@
+Command: aipdd_env\Scripts\python.exe -m jupyter notebook --no-browser --ip=127.0.0.1 --port=8890
+Jupyter Notebook HTTP status: 200
+Server started from aipdd_env and stopped after verification.
+Notebook execution evidence: notebooks/lab01_setup.ipynb

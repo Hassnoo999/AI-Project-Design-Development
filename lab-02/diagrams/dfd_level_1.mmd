@@ -1,0 +1,12 @@
+flowchart TD
+    C[Camera] -->|Raw frames| I((1.0 Data Ingestion))
+    I -->|Timestamped frame| P((2.0 Preprocessing))
+    P -->|RGB tensor| M((3.0 Model Inference))
+    W[(D1 Model Weights)] -->|Model parameters| M
+    M -->|Raw predictions| R((4.0 Post-processing))
+    R -->|Filtered detections| L((5.0 Storage and Alerts))
+    A[Admin] -->|Settings| L
+    L -->|Event and evidence| D[(D2 Event Store)]
+    D -->|Prior events| L
+    L -->|Alerts and results| T[Teacher / Operator]
+    T -->|Review decisions| L
